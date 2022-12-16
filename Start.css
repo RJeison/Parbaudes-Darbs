@@ -1,0 +1,57 @@
+h1 {
+    color: #2092EC;
+}
+body {
+    font-family: Tahoma;
+    background: #2092EC url(bg.jpg);
+    margin: 0;
+}
+form {
+    margin: 0 auto;
+    background: #FFFFFF;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+.group {
+    margin: 10px;
+    padding: 5px;
+}
+label {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #2092EC;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+p {
+    font-size: 20px;
+}
+button.error {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #f56200;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}

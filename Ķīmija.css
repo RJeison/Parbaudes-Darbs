@@ -1,0 +1,58 @@
+a {
+    height: 35px;
+}
+
+h1 {
+    font-family: Tahoma;
+    color: #2092EC;
+    margin: 0;
+    height: 35px;
+    padding: 20px;
+}
+p {
+    height: 25px;
+}
+button {
+    border-radius: 10px;
+    background: #2092EC;
+    color: #fff;
+}
+th {
+    text-align: left;
+    color: #fff;
+    background-color: #040035;
+}
+td {
+    min-width: 250px;
+    color: #696969;
+    border-bottom: 1px solid #eee;
+}
+th, td {
+    padding: 10px;
+    height: 20px;
+}
+td:first-child {
+    width: 150px;
+    min-width: 0;
+}
+th:last-child {
+    text-align: right;
+}
+td:last-child {
+    width: 80px;
+    min-width: 0;
+    text-align: right;
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+button.error {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #f56200;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
